@@ -6,7 +6,6 @@ import Hero from "@/components/Sections/Hero";
 const UI: React.FC<Props> = ({}) => {
   return (
     <div>
-      Home Page
       <Hero />
       <AboutMe />
     </div>

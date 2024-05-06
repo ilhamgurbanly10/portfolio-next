@@ -1,6 +1,7 @@
 {
   "Index": {
-    "title": "Internationalisation avec Next.js 14",
-    "description": "Un tutoriel complet pour tous !"
+    "about_title_1": "A LITTLE",
+    "about_title_2": "ABOUT",
+    "about_title_3": "ME"
   }
 }
