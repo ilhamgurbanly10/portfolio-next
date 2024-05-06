@@ -1,0 +1,1 @@
+export { Hook as useLanguage } from './UseLanguage'

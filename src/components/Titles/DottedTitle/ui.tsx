@@ -11,8 +11,10 @@ const UI: React.FC<Props> = ({ text, className = " " }) => {
   const dots: number[] = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
   return (
-    <div className={`dotted-title ${className}`}>
-      <h2 className="text-white text-lg font-bold tracking-widest text-center">
+    <div className={`dotted-title`}>
+      <h2
+        className={`text-white text-lg font-bold tracking-widest text-center ${className}`}
+      >
         {text}
       </h2>
       <div className="flex justify-between items-center mx-auto w-[220px] mt-2">

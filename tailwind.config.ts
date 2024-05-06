@@ -15,7 +15,9 @@ const config: Config = {
     extend: {
        colors: {
         'app-orange': '#E04343',
-        'app-yellow': '#FFE800'
+        'app-yellow': '#FFE800',
+        'error': '#ED4337',
+        'white': 'white'
     }
     },
   },

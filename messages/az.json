@@ -2,6 +2,8 @@
   "Index": {
     "about_title_1": "MƏNİM",
     "about_title_2": "HAQQIMDA",
-    "about_title_3": "BİR QƏDƏR"
+    "about_title_3": "BİR QƏDƏR",
+    "error": "Üzr istəyirik, bir xəta baş verdi, xahiş edirik yenidən cəhd edin",
+    "loading": "Yüklənir..."
   }
 }

@@ -2,6 +2,8 @@
   "Index": {
     "about_title_1": "A LITTLE",
     "about_title_2": "ABOUT",
-    "about_title_3": "ME"
+    "about_title_3": "ME",
+    "error": "Ups, something went wrong, try again later.",
+    "loading": "Loading..."
   }
 }
