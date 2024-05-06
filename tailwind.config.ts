@@ -16,6 +16,9 @@ const config: Config = {
        colors: {
         'app-orange': '#E04343',
         'app-yellow': '#FFE800',
+        'app-black': '#353535',
+        'app-red': '#E04343',
+        'app-gray': '#a1a9b0',
         'error': '#ED4337',
         'white': 'white'
     }

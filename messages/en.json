@@ -4,6 +4,10 @@
     "about_title_2": "ABOUT",
     "about_title_3": "ME",
     "error": "Ups, something went wrong, try again later.",
-    "loading": "Loading..."
+    "loading": "Loading...",
+    "frontend_developer": "FRONT-END DEVELOPER",
+    "german_teacher": "GERMAN TEACHER",
+    "spanish_teacher": "SPANISH TEACHER",
+    "see_more": "SEE MORE"
   }
 }
