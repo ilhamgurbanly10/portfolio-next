@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { memo } from "react";
 import { Props } from "./type";
 import NavLink from "@/components/Buttons/NavLink";
 import { paths } from "../Header/data";
@@ -51,4 +51,4 @@ const UI: React.FC<Props> = ({ className = "" }) => {
   );
 };
 
-export default UI;
+export default memo(UI);

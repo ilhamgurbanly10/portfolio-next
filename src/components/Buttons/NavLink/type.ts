@@ -5,4 +5,5 @@ export interface Props {
     href: string;
     activeClassName?: string;
     onClick?: () => void;
+    isHomePage?: boolean;
 }

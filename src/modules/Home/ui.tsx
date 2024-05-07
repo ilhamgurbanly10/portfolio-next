@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { memo } from "react";
 import { Props } from "./type";
 import AboutMe from "./components/AboutMe";
 import Hero from "@/components/Sections/Hero";
@@ -12,4 +12,4 @@ const UI: React.FC<Props> = ({}) => {
   );
 };
 
-export default UI;
+export default memo(UI);

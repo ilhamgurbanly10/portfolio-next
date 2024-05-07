@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { memo } from "react";
 import { Props } from "./type";
 import Link from "next/link";
 import NavLink from "@/components/Buttons/NavLink";
@@ -9,7 +9,7 @@ import MobileNavbar from "../MobileNavbar";
 const UI: React.FC<Props> = ({}) => {
   return (
     <header className="border-b border-app-red fixed top-0 left-0 right-0 z-40 bg-app-lightgray shadow-lg">
-      <Container className="flex justify-between items-center lg:px-10 xl:px-10 py-4 lg:py-6">
+      <Container className="flex justify-between items-center lg:px-12 xl:px-12 py-4 lg:py-6">
         <Link href="/">
           <div>
             <span className="text-3xl lg:text-4xl font-bold text-app-black">
@@ -28,6 +28,7 @@ const UI: React.FC<Props> = ({}) => {
               label={item.label}
               icon={item.icon}
               href={item.href}
+              isHomePage={item.href === "/"}
             />
           ))}
         </nav>
@@ -38,4 +39,4 @@ const UI: React.FC<Props> = ({}) => {
   );
 };
 
-export default UI;
+export default memo(UI);

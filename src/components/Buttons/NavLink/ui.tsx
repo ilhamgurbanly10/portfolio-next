@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { memo } from "react";
 import { Props } from "./type";
 import { useTranslations } from "next-intl";
 import Link from "next/link";
@@ -12,6 +12,7 @@ const UI: React.FC<Props> = ({
   href,
   activeClassName,
   onClick,
+  isHomePage,
 }) => {
   const translated = useTranslations("Index");
   const path = usePathname();
@@ -19,7 +20,11 @@ const UI: React.FC<Props> = ({
     <Link href={href}>
       <div
         className={`text-[10px] font-bold pb-1 transition-all duration-500 border-b border-dashed flex flex-col items-center cursor-pointer ${className} ${
-          path?.includes(href)
+          path === href ||
+          (isHomePage &&
+            ["/en", "/de", "/az"]?.some((item) => {
+              return item === path;
+            }))
             ? `text-app-red border-app-red hover:text-app-black hover:border-app-black ${activeClassName}`
             : "text-app-black border-app-black hover:text-app-red hover:border-app-red"
         }`}
@@ -34,4 +39,4 @@ const UI: React.FC<Props> = ({
   );
 };
 
-export default UI;
+export default memo(UI);

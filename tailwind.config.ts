@@ -19,7 +19,8 @@ const config: Config = {
         'app-black': '#353535',
         'app-red': '#E04343',
         'app-gray': '#a1a9b0',
-        'app-lightgray' : 'rgba(255, 255, 255, 1)',
+        'app-lightgray': 'rgba(255, 255, 255, 1)',
+        'app-lightgray-2': '#f3f5f8',
         'error': '#ED4337',
         'white': 'white'
     }

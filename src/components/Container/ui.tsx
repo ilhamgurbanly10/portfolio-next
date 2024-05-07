@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { memo } from "react";
 import { Props } from "./type";
 
 const UI: React.FC<Props> = ({ children, className = " ", style = {} }) => {
@@ -13,4 +13,4 @@ const UI: React.FC<Props> = ({ children, className = " ", style = {} }) => {
   );
 };
 
-export default UI;
+export default memo(UI);

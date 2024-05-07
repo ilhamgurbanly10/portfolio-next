@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { memo } from "react";
 import { Props } from "./type";
 import { WarningOutlined } from "@ant-design/icons";
 import { useTranslations } from "next-intl";
@@ -15,4 +15,4 @@ const UI: React.FC<Props> = ({ text, className = "" }) => {
   );
 };
 
-export default UI;
+export default memo(UI);

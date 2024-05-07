@@ -4,5 +4,5 @@ export interface Props {
 
 export interface ReturnType {
     show: boolean;
-    setShow: any;
+    setShow: React.Dispatch<React.SetStateAction<boolean>>;
 }

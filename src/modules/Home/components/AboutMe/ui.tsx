@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { memo } from "react";
 import { Props } from "./type";
 import Container from "@/components/Container";
 import DottedTitle from "@/components/Titles/DottedTitle";
@@ -45,4 +45,4 @@ const UI: React.FC<Props> = ({}) => {
   );
 };
 
-export default UI;
+export default memo(UI);

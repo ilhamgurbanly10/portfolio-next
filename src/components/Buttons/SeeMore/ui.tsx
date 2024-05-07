@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { memo } from "react";
 import { Props } from "./type";
 import { DownOutlined } from "@ant-design/icons";
 import { useTranslations } from "next-intl";
@@ -11,7 +11,9 @@ const UI: React.FC<Props> = ({ className = "" }) => {
       type="button"
       className={`text-white flex flex-col items-center cursor-pointer absolute bottom-4 ${className}`}
       onClick={() => {
-        document.documentElement.scrollTop = window.innerHeight;
+        const header = document.querySelector("header");
+        const height: number = header?.offsetHeight ?? 0;
+        document.documentElement.scrollTop = window.innerHeight - height;
       }}
     >
       <span>{translated("see_more")}</span>
@@ -22,4 +24,4 @@ const UI: React.FC<Props> = ({ className = "" }) => {
   );
 };
 
-export default UI;
+export default memo(UI);

@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { memo } from "react";
 import { Props } from "./type";
 import useModel from "./model";
 const UI: React.FC<Props> = ({ data, className = "", time }) => {
@@ -20,4 +20,4 @@ const UI: React.FC<Props> = ({ data, className = "", time }) => {
   );
 };
 
-export default UI;
+export default memo(UI);

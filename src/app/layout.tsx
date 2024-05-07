@@ -26,7 +26,7 @@ export default function LocaleLayout({
     <NextIntlClientProvider messages={messages} locale={locale}>
       <StoreProvider>
         <html lang={locale}>
-          <body className={inter.className}>
+          <body className={`bg-white ${inter.className}`}>
             <Header />
             <main>{children}</main>
             <Footer />

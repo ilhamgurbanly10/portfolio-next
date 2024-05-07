@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { memo } from "react";
 import { Props } from "./type";
 import { DownOutlined } from "@ant-design/icons";
 
@@ -38,4 +38,4 @@ const UI: React.FC<Props> = ({ text, className = " " }) => {
   );
 };
 
-export default UI;
+export default memo(UI);
