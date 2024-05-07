@@ -33,9 +33,9 @@ const UI: React.FC<Props> = ({}) => {
       style={{
         backgroundImage: `url("https://technext.github.io/JohnDoe/img/header-bg.jpg")`,
       }}
-      className="bg-app-orange flex flex-col items-center h-screen relative bg-center bg-cover inset-0 bg-no-repeat"
+      className="flex flex-col items-center h-screen relative bg-center bg-cover inset-0 bg-no-repeat"
     >
-      <div className="absolute text-center lg:text-start lg:right-14 top-14">
+      <div className="absolute text-center lg:text-start lg:right-14 top-24 lg:top-40">
         <h1 className="text-4xl lg:text-8xl text-app-black font-bold">
           I<span className="text-app-red">L</span>HAM
         </h1>

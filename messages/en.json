@@ -8,6 +8,12 @@
     "frontend_developer": "FRONT-END DEVELOPER",
     "german_teacher": "GERMAN TEACHER",
     "spanish_teacher": "SPANISH TEACHER",
-    "see_more": "SEE MORE"
+    "see_more": "SEE MORE",
+    "home": "HOME",
+    "about": "ABOUT",
+    "service": "SERVICE",
+    "portfolio": "PORTFOLIO",
+    "blog": "BLOG",
+    "contact": "CONTACT"
   }
 }
