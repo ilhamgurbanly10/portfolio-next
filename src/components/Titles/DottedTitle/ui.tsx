@@ -4,7 +4,7 @@ import { Props } from "./type";
 import { DownOutlined } from "@ant-design/icons";
 
 export const Dot = () => {
-  return <span className="block w-0.5 h-0.5 bg-gray-300 rounded-full" />;
+  return <span className="block w-0.5 h-0.5 bg-gray-400 rounded-full" />;
 };
 
 const UI: React.FC<Props> = ({ text, className = " " }) => {
