@@ -10,6 +10,8 @@ const UI: React.FC<Props> = ({
   icon,
   title,
   description,
+  subtitleClassName,
+  subtitle,
 }) => {
   return (
     <div
@@ -21,11 +23,17 @@ const UI: React.FC<Props> = ({
         {icon}
       </div>
       <h3
-        className={`font-bold max-w-[70%] text-lg mt-6 text-center ${titleClassName}`}
+        className={`font-bold max-w-[70%] text-app-red text-lg mt-6 text-center ${titleClassName}`}
       >
         {title}
       </h3>
+      <h3
+        className={`font-bold max-w-[70%] text-app-black text-lg mt-2 text-center ${subtitleClassName}`}
+      >
+        {subtitle}
+      </h3>
       <div className="w-16 h-[1px] bg-app-gray mt-5 mx-auto"></div>
+
       <p
         className={`mt-5 text-sm text-app-gray leading-7 text-center ${descriptionClassName}`}
       >

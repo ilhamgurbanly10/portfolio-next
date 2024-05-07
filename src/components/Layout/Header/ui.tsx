@@ -9,7 +9,7 @@ import MobileNavbar from "../MobileNavbar";
 const UI: React.FC<Props> = ({}) => {
   return (
     <header className="border-b border-app-red fixed top-0 left-0 right-0 z-40 bg-app-lightgray shadow-lg">
-      <Container className="flex justify-between items-center lg:px-12 xl:px-12 py-4 lg:py-6">
+      <Container className="flex justify-between items-center lg:px-[32px] xl:px-[32px] py-4 lg:py-6">
         <Link href="/">
           <div>
             <span className="text-3xl lg:text-4xl font-bold text-app-black">
