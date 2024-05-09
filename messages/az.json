@@ -22,7 +22,20 @@
     "hire_me": "İLHAM QURBANLINI İŞƏ GÖTÜR",
     "experience": "TƏCRÜBƏ",
     "download_cv": "CV YÜKLƏ",
-    "education": "EDUCATION"
-
+    "education": "EDUCATION",
+    "language": "LANGUAGE",
+    "development": "DEVELOPMENT",
+    "phone": "PHONE",
+    "address": "ADDRESS",
+    "email": "EMAIL",
+    "your_name": "Your name",
+    "email_address": "Email address",
+    "write_your_mes": "Write your message here...",
+    "send_message": "Send message",
+    "successfully_title": "Successfully {{operation}}",
+    "error_title": "Could not be {{operation}}",
+    "sended": "sended",
+    "successfully_mes": "{{title} is successfully {{operation}}",
+    "error_mes": "{{title} could not be {{operation}}"
   }
 }

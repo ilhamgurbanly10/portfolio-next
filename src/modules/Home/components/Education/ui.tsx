@@ -12,7 +12,7 @@ const UI: React.FC<Props> = ({ className }) => {
 
   return (
     <div>
-      <Container className="lg:px-0 xl:px-0 py-4 lg:py-6 mx-auto">
+      <Container className="lg:px-0 xl:px-[0px] py-4 lg:py-6 mx-auto">
         <div className={`${className}`}>
           <DottedTitle
             text={
