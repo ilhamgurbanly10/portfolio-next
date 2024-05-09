@@ -24,7 +24,7 @@ export const data: Experience[] = [
     title_en: "FRONT-END DEVELOPER",
     title_de: "FRONT-END DEVELOPER",
     subtitle: "SIP GROUP",
-    description: "2022 - PRESENT",
+    description: "2023 - PRESENT",
   },
   {
     icon: <LaptopOutlined />,

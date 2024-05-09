@@ -1,41 +1,44 @@
-import { ForClient } from "./type";
-import { LaptopOutlined, BookFilled, BookOutlined } from "@ant-design/icons";
+import { Project } from "./type";
 
-export const data: ForClient[] = [
+export const data: Project[] = [
   {
-    icon: <LaptopOutlined />,
-    title_az: "FRONT-END DEVELOPER",
-    title_en: "FRONT-END DEVELOPER",
-    title_de: "FRONT-END DEVELOPER",
-    description_az:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a lorem quis neque interdum consequat ut sed sem. Duis quis tempor nunc. Interdum et malesuada fames ac ante ipsum primis in faucibus.",
-    description_en:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a lorem quis neque interdum consequat ut sed sem. Duis quis tempor nunc. Interdum et malesuada fames ac ante ipsum primis in faucibus.",
-    description_de:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a lorem quis neque interdum consequat ut sed sem. Duis quis tempor nunc. Interdum et malesuada fames ac ante ipsum primis in faucibus.",
+    title: "NEXT RESTAURANT",
+    href: "/",
+    githubHref: "/",
+    description: "Hi",
+    img: "https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png",
   },
   {
-    icon: <BookFilled />,
-    title_az: "ALMAN DİLİ MÜƏLLİMİ",
-    title_en: "GERMAN TEACHER",
-    title_de: "DEUTSCHCHLEHRER",
-    description_az:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a lorem quis neque interdum consequat ut sed sem. Duis quis tempor nunc. Interdum et malesuada fames ac ante ipsum primis in faucibus.",
-    description_en:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a lorem quis neque interdum consequat ut sed sem. Duis quis tempor nunc. Interdum et malesuada fames ac ante ipsum primis in faucibus.",
-    description_de:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a lorem quis neque interdum consequat ut sed sem. Duis quis tempor nunc. Interdum et malesuada fames ac ante ipsum primis in faucibus.",
+    title: "NEXT RESTAURANT",
+    href: "/",
+    githubHref: "/",
+    description: "Hi",
+    img: "https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png",
   },
   {
-    icon: <BookOutlined />,
-    title_az: "İSPAN DİLİ MÜƏLLİMİ",
-    title_en: "SPANISH TEACHER",
-    title_de: "SPANISCHLEHRER",
-    description_az:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a lorem quis neque interdum consequat ut sed sem. Duis quis tempor nunc. Interdum et malesuada fames ac ante ipsum primis in faucibus.",
-    description_en:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a lorem quis neque interdum consequat ut sed sem. Duis quis tempor nunc. Interdum et malesuada fames ac ante ipsum primis in faucibus.",
-    description_de:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a lorem quis neque interdum consequat ut sed sem. Duis quis tempor nunc. Interdum et malesuada fames ac ante ipsum primis in faucibus.",
+    title: "NEXT RESTAURANT",
+    href: "/",
+    description: "Hi",
+    img: "https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png",
+  },
+  {
+    title: "NEXT RESTAURANT",
+    href: "/",
+    githubHref: "/",
+    description: "Hi",
+    img: "https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png",
+  },
+  {
+    title: "NEXT RESTAURANT",
+    href: "/",
+    githubHref: "/",
+    description: "Hi",
+    img: "https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png",
+  },
+  {
+    title: "NEXT RESTAURANT",
+    href: "/",
+    description: "Hi",
+    img: "https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png",
   },
 ];

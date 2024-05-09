@@ -6,10 +6,9 @@ export interface ReturnType {
 
 }
 
-export interface Project {
+export interface Education {
     title: string;
-    href: string;
-    githubHref?: string;
-    description: string; 
+    description: string;
+    year: string;
     img: string;
 }
