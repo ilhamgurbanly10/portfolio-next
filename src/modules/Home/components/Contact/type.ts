@@ -19,3 +19,7 @@ export interface Contact {
     contactInfo: ContactInfo[];
     socials: Social[];
 }
+
+export interface ReturnType {
+    year: number;
+}

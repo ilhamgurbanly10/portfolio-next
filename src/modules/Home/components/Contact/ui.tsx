@@ -6,10 +6,10 @@ import DottedTitle from "@/components/Titles/DottedTitle";
 import { useTranslations } from "next-intl";
 import ContactInfoCard from "@/components/Cards/ContactInfoCard";
 import { data } from "./data";
-
+import useModel from "./model";
 const UI: React.FC<Props> = ({ className }) => {
   const translated = useTranslations("Index");
-
+  const { year } = useModel();
   return (
     <Container>
       <div className={`${className}`}>
@@ -44,7 +44,7 @@ const UI: React.FC<Props> = ({ className }) => {
             ></iframe>
           </address>
           <div className="bg-app-white w-full lg:w-[49%] mt-6 lg:mt-0">
-            Form
+            {year}
           </div>
         </div>
 
