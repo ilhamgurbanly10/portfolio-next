@@ -37,7 +37,13 @@ const UI: React.FC<Props> = ({ className }) => {
         </div>
       </Container>
       <Container className="bg-app-red flex items-center justify-center py-[70px]">
-        <RedButton onClick={() => {}} label={"download_cv"} />
+        <RedButton
+          asLink={true}
+          download={true}
+          href="/files/CV_Ilham_Gurbanly.pdf"
+          onClick={() => {}}
+          label={"download_cv"}
+        />
       </Container>
     </>
   );
