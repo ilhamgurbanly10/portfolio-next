@@ -23,6 +23,7 @@ export const developmentSkills: Skill[] = [
   "Ajax",
   "Recoil",
   "Redux",
+  "Redux Toolkit",
   "Vuex",
   "Ant Design",
   "Material UI",
