@@ -9,6 +9,8 @@ import {
   WhatsAppOutlined,
 } from "@ant-design/icons";
 
+export const mailAddress: string = "gurbanlyilham@gmail.com";
+
 export const data: Contact = {
   contactInfo: [
     {

@@ -37,6 +37,10 @@
     "error_title": "Could not be {{operation}}",
     "sended": "sended",
     "successfully_mes": "{{title} is successfully {{operation}}",
-    "error_mes": "{{title} could not be {{operation}}"
+    "error_mes": "{{title} could not be {{operation}}",
+    "required_field": "This field is required.",
+    "ivalid_email": "Email address is invalid",
+    "is_sending": "Is sending...",
+    "message": "Message"
   }
 }

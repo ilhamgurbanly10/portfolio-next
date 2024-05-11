@@ -21,5 +21,13 @@ export interface Contact {
 }
 
 export interface ReturnType {
-    year: number;
+    // eslint-disable-next-line no-unused-vars
+    onFinish: (values: FieldType) => Promise<void>;
+    isSending: boolean;
 }
+
+export interface FieldType {
+    email?: string;
+    name?: string;
+    message?: string;
+  };

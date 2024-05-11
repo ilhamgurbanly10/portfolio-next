@@ -6,6 +6,8 @@ import NavLink from "@/components/Buttons/NavLink";
 import Container from "@/components/Container";
 import { paths } from "./data";
 import MobileNavbar from "../MobileNavbar";
+import LocaleSwitcher from "@/components/Dropdowns/LocaleSwitcher";
+
 const UI: React.FC<Props> = ({}) => {
   return (
     <header className="border-b border-app-red fixed top-0 left-0 right-0 z-40 bg-app-lightgray shadow-lg">
@@ -21,19 +23,21 @@ const UI: React.FC<Props> = ({}) => {
           </div>
         </Link>
 
-        <nav className="hidden lg:flex items-center gap-10">
-          {paths?.map((item, i) => (
-            <NavLink
-              key={i}
-              label={item.label}
-              icon={item.icon}
-              href={item.href}
-              isHomePage={item.href === "/"}
-            />
-          ))}
-        </nav>
-
-        <MobileNavbar />
+        <div className="flex items-center gap-10">
+          <LocaleSwitcher />
+          <nav className="hidden lg:flex items-center gap-10">
+            {paths?.map((item, i) => (
+              <NavLink
+                key={i}
+                label={item.label}
+                icon={item.icon}
+                href={item.href}
+                isHomePage={item.href === "/"}
+              />
+            ))}
+          </nav>
+          <MobileNavbar />
+        </div>
       </Container>
     </header>
   );
