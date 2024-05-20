@@ -5,14 +5,15 @@ import { useState } from "react";
 import { notification } from "antd";
 import { useTranslations } from "next-intl";
 // import { SMTPClient } from "emailjs";
-import { mailAddress } from "./data";
+// import { mailAddress } from "./data";
 // https://www.npmjs.com/package/emailjs
 
 const useModel = (): ReturnType => {
    const translated = useTranslations("Index");
 
    const [isSending, setIsSending] = useState<boolean>(false);
-   const onFinish: FormProps<FieldType>["onFinish"] = async (values: FieldType): void => {
+   const onFinish: FormProps<FieldType>["onFinish"] = async (values: FieldType): Promise<void> => {
+      values;
       if (isSending) return;
       setIsSending(true);
 
